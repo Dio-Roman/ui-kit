@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title UI-kit
+  body
+    //- #logo
+    img(src=require("./img/murad.jpg"))
+    section.form-elements
+      div
+        include blocks/text-field/text-field.pug
+      div
+        include blocks/dropdown/dropdown.pug
+      div
+        include blocks/masked-text-field/masked-text-field.pug
+      div
+        include blocks/date-dropdown/date-dropdown.pug
+      div
+        include blocks/filter-date-dropdown/filter-date-dropdown.pug
+      div
+        include blocks/subscription-text-field/subscription-text-field.pug
+    div
+      div
+        include blocks/checkbox-buttons/checkbox-buttons.pug
+      div
+        include blocks/radio-buttons/radio-buttons.pug
+      div 
+        include blocks/toggle-switch/toggle-switch.pug
+      div
+        include blocks/like-button/like-button.pug
+      div
+        include blocks/rate-button/rate-button.pug
+      div
+        include blocks/range-slider/range-slider.pug
+      div
+        include blocks/buttons/buttons.pug
+      div
+        include blocks/pagination/pagination.pug
+    include footer.pug

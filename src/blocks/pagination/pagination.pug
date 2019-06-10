@@ -1,0 +1,58 @@
+p Pagination
+  //- div#data-container
+  //-   ul
+  //-     li 1
+  //-     li 2
+  //-     li 3
+  //-     li 4
+  //-     li 5
+  //-     li 6
+  //-     li 7 
+  //-     li 8
+  //-     li 9
+  //-     li 10
+  //-     li 11
+  //-     li 12
+  //-     li 13
+  //-     li 14
+  //-     li 15
+  //- div#pagination-container
+  //- ul.pagination#pagination-demo
+  //-   li 1
+  //-   li 2
+  //-   li 3
+  //-   li 4
+  //-   li 5
+  //-   li 6
+  //-   li 7 
+  //-   li 8
+  //-   li 9
+  //-   li 10
+  //-   li 11
+  //-   li 12
+  //-   li 13
+  //-   li 14
+  //-   li 15
+div.pagination
+  //- button.pagination__arrow.pagination__arrow_left
+    //- include arrow_forward.pug
+  //- li
+  //-     a(href="1") 1
+  //- span ...
+  ul.pagination__ul
+    li
+      a(href="#page1") 1
+    li
+      a(href="#page2") 2
+    li
+      a(href="#page3") 3
+    //- span ...
+    li
+      a(href="15") 15
+  button.pagination__arrow.pagination__arrow_right
+    include arrow_forward.pug
+  p 
+    span#quantityPerPage 1 – 12 
+    | из 
+    span#totalQuantity 100+ 
+    | вариантов аренды

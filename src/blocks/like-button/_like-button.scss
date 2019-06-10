@@ -1,0 +1,39 @@
+.like-btn {
+  position: relative;
+  top: -2px;
+  display: inline-block;
+  width: 40px;
+height: 20px;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 10px;
+}
+.like-btn__input {
+  width: 0;
+  height: 0;
+}
+.like-btn__heart {
+  position: absolute;
+  top: 2px;
+  left: 3px;
+  display: inline-block;
+  width: 14px;
+height: 14px;
+background: url(../img/favorite_border.jpg) no-repeat;
+background-size: contain;
+transition: 0.3s;
+}
+.like-btn__input:checked + .like-btn__heart {
+  background: url(../img/favorite.jpg) no-repeat;
+  background-size: contain;
+  transition: 0.3s;
+}
+.like-btn__counter {
+  position: absolute;
+  top: -11px;
+  right: 9px;
+}
+.like-btn__input:checked + .like-btn__heart + .like-btn__counter{
+  color: #BC9CFF;
+  transition: 0.3s;
+}

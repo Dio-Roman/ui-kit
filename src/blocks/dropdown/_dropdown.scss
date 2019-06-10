@@ -1,0 +1,50 @@
+label {
+  font-family: Montserrat-Black;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #1F2041;
+}
+
+// .input-text, 
+
+select {
+    display: block;
+    width: 320px;
+    height: 44px;
+    padding: 15px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #f0f8ff00;
+    -webkit-appearance: none;
+}
+
+
+select:hover,
+select:focus {
+  border: 1px solid rgba(31, 32, 65, 0.5);
+  outline: none;
+}
+
+
+.more {
+  left: 294px;
+    top: 189px;
+    width: 30px;
+    height: 30px;
+  position: absolute;
+  z-index: -1;
+  background-color: #ffffff;
+}
+#more {
+  width: 10px;
+  height: 10px;
+  border-left: 4px solid rgba(31, 32, 65, 0.5);
+  border-bottom: 4px solid rgba(31, 32, 65, 0.5);
+  transform: rotate(-45deg);
+  background-color: #ffffff;
+}

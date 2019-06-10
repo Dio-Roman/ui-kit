@@ -1,0 +1,54 @@
+.arrow_forward {
+  position: absolute;
+  right: 13px;
+  top: 13px;
+}
+.pagination__arrow {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+border-radius: 22px;
+border: none;
+position: relative;
+}
+.pagination__ul {
+  display: inline-flex;
+  list-style: none;
+
+  li:not(:nth-child(1)) {
+    display: inline-block;
+    width: 40px;
+  height: 40px;
+  
+  }
+
+  li:nth-child(1) > a {
+    color: #ffffff;
+  }
+
+  li:nth-child(1) {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border-radius: 22px;
+  border: none;
+  text-align: center;
+  }
+
+  li:nth-last-child(1)::before {
+    content: '...';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+  }
+
+  li {
+    position: relative;
+    a {
+  text-decoration: none;
+  position: absolute;
+  top: 0.5rem;
+  left: 1rem;
+} 
+}
+}

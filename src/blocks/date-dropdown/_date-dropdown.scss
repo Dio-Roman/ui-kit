@@ -1,0 +1,50 @@
+label {
+  font-family: Montserrat-Black;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #1F2041;
+}
+
+// .input-text, 
+
+.dateDrop {
+    display: block;
+    width: 320px;
+    height: 44px;
+    padding: 15px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #f0f8ff00;
+    -webkit-appearance: none;
+}
+
+input:hover,
+input:focus {
+  border: 1px solid rgba(31, 32, 65, 0.5);
+  outline: none;
+}
+
+
+.dateDrop::-webkit-inner-spin-button{
+    display: none;
+    -webkit-appearance: none;
+}
+
+.dateDrop::-webkit-calendar-picker-indicator
+ {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  display: block;
+  background: url(../img/expand_more.jpg) no-repeat;
+  width: 20px;
+  height: 20px;
+  border-width: thin;
+}
+.dateDrop::-webkit-clear-button {
+  display: none;
+}

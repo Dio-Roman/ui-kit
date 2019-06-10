@@ -1,0 +1,55 @@
+.rate-btn {
+  position: relative;
+  // z-index: -1;
+  width: 100px;
+  height: 20px;
+  background: url(../img/star_border.jpg) repeat-x;
+  // background-size: contain ;
+  margin: 0px;
+
+  display: inline-block;
+}
+.rate-btn__input:hover,
+.rate-btn__input:focus {
+  border: none;
+}
+.rate-btn__input {
+  -webkit-appearance: none; 
+  -moz-appearance: none;
+  appearance: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  // margin-right: 2px;
+  padding: 0px;
+    height: 20px;
+    // background-image: url(../img/star.jpg);
+    display: inline-block;
+}
+.rate-btn__input:nth-of-type(1) {
+  width: 20px;
+  z-index: 5;
+}
+.rate-btn__input:nth-of-type(2) {
+  width: 40px;
+  z-index: 4;
+}
+.rate-btn__input:nth-of-type(3) {
+  width: 60px;
+  z-index: 3;
+}
+.rate-btn__input:nth-of-type(4) {
+  width: 80px;
+  z-index: 2;
+}
+.rate-btn__input:nth-of-type(5) {
+  width: 100px;
+  z-index: 1;
+}
+.rate-btn__input:hover,
+.rate-btn__input:checked {
+      background: url(../img/mystar.jpg) repeat-x ;
+      // background-size: 19px ;
+      background-size: contain auto;
+}

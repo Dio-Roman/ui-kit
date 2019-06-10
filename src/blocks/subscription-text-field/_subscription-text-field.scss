@@ -1,0 +1,40 @@
+label {
+  font-family: Montserrat-Black;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #1F2041;
+}
+
+// .input-text, 
+
+.subscription {
+    display: block;
+    width: 320px;
+    height: 44px;
+    padding: 15px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #f0f8ff00;
+    -webkit-appearance: none;
+}
+
+input:hover,
+input:focus {
+  border: 1px solid rgba(31, 32, 65, 0.5);
+  outline: none;
+}
+
+.submit {
+  position: relative;
+    top: -36px;
+    right: -283px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: url(../img/arrow_forward.jpg) no-repeat;
+}
