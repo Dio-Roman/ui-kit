@@ -8,42 +8,8 @@ body {
 	src: url("../fonts/Montserrat-Black.ttf");
 }
 
+
 @import '../blocks/text-field/text-field';
-
-label {
-  font-family: Montserrat-Black;
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 15px;
-text-transform: uppercase;
-color: #1F2041;
-}
-
-// .input-text, 
-.date,
-.range,
-select {
-    display: block;
-    width: 320px;
-    height: 44px;
-    padding: 15px;
-    border: 1px solid rgba(31, 32, 65, 0.25);
-    box-sizing: border-box;
-    border-radius: 4px;
-    font-size: 14px;
-    background-color: #f0f8ff00;
-    -webkit-appearance: none;
-}
-
-input:hover,
-input:focus,
-select:hover,
-select:focus {
-  border: 1px solid rgba(31, 32, 65, 0.5);
-  outline: none;
-}
-
 @import '../blocks/dropdown/dropdown';
 @import '../blocks/masked-text-field/masked-text-field';
 @import '../blocks/date-dropdown/date-dropdown';

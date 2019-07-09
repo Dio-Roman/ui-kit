@@ -1,4 +1,6 @@
-label {
+@import './more-btn-pic';
+
+.dropdown {
   font-family: Montserrat-Black;
 font-style: normal;
 font-weight: bold;
@@ -10,7 +12,7 @@ color: #1F2041;
 
 // .input-text, 
 
-select {
+.dropdown__select {
     display: block;
     width: 320px;
     height: 44px;
@@ -24,27 +26,19 @@ select {
 }
 
 
-select:hover,
-select:focus {
+.dropdown__select:hover,
+.dropdown__select:focus {
   border: 1px solid rgba(31, 32, 65, 0.5);
   outline: none;
 }
 
 
-.more {
+.dropdown__more {
   left: 294px;
     top: 189px;
     width: 30px;
     height: 30px;
   position: absolute;
   z-index: -1;
-  background-color: #ffffff;
-}
-#more {
-  width: 10px;
-  height: 10px;
-  border-left: 4px solid rgba(31, 32, 65, 0.5);
-  border-bottom: 4px solid rgba(31, 32, 65, 0.5);
-  transform: rotate(-45deg);
   background-color: #ffffff;
 }
